@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto Condensed' !important;
+}
+
+.page-title {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.ant-btn-primary:not(.ant-btn-dangerous),
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background-color: #00474f !important;
+  border-color: #00474f !important;
+}
+
+.ant-btn-primary:hover:not(.ant-btn-dangerous),
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background-color: #006d75 !important;
+  border-color: #006d75 !important;
+}
+
+.ant-btn span {
+  font-weight: 700;
+}
+
+button.link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+button svg {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  h2.ant-typography {
+    font-size: 18px !important;
+  }
+}
